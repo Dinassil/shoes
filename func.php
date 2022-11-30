@@ -2,7 +2,7 @@
 include 'config.php';
 
 $name = $_POST['name'];
-
+$str = "name";
 // Create
 
 if (isset($_POST['submit'])) {
