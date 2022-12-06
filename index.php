@@ -119,7 +119,7 @@ if(isset($_GET["action"]))
 				<div class="container">
 				<form method="post" action="index.php?action=add&id=<?php echo $row["id"]; ?>">
 					<div style="border:1px solid #333; background-color:#f1f1f1; border-radius:5px; padding:10px;float:left;" align="center">
-						<img src="images/<?php echo $row["image"]; ?>" class="img-responsive" /><br />
+						<img src="mm/<?php echo $row["image"]; ?>" class="img-responsive" /><br />
 
 						<h4 class="text-info"><?php echo $row["name"]; ?></h4>
 
@@ -131,7 +131,7 @@ if(isset($_GET["action"]))
 
 						<input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>" />
 
-						<input type="submit" name="add_to_cart" style="margin-top:1px;" class="btn btn-success" value="Add to Cart" />
+						<input type="submit" name="add_to_cart" style="margin-top:1px;" class="btn btn-success" value="Добавить в корзину" />
 
 					</div>
 				</form>
@@ -141,7 +141,7 @@ if(isset($_GET["action"]))
 					}
 				}
 			?>
-			<div style="clear:both"></div>
+			<!-- <div style="clear:both"></div>
 			<br />
 			<h3>Order Details</h3>
 			<div class="table-responsive">
@@ -184,7 +184,7 @@ if(isset($_GET["action"]))
 			</div>
 		</div>
 	</div>
-	<br />
+	<br /> -->
 
 
 

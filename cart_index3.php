@@ -15,15 +15,15 @@ session_start();
 ?>
 			<div style="clear:both"></div>
 			<br />
-			<h3>Order Details</h3>
+			<h3>Детали заказа</h3>
 			<div class="table-responsive">
 				<table class="table table-bordered">
 					<tr>
-						<th width="40%">Item Name</th>
-						<th width="10%">Quantity</th>
-						<th width="20%">Price</th>
-						<th width="15%">Total</th>
-						<th width="5%">Action</th>
+						<th width="40%">Наименование обуви</th>
+						<th width="10%">Количество</th>
+						<th width="20%">Цена</th>
+						<th width="15%">Общая</th>
+						<th width="5%">Действие</th>
 					</tr>
 					<?php
 					if(!empty($_SESSION["shopping_cart"]))
@@ -44,7 +44,7 @@ session_start();
 						}
 					?>
 					<tr>
-						<td colspan="3" align="right">Total</td>
+						<td colspan="3" align="right">Общая стоимость заказа</td>
 						<td align="right">$ <?php echo number_format($total, 2); ?></td>
 						<td></td>	
 					</tr>
