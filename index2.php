@@ -1,3 +1,9 @@
+
+<?php
+session_start();
+$email = $_SESSION['email'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,12 +48,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Корзина</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Registration.php">Регистрация</a>
+        <li class="nav-item">
+                <a class="nav-link" href="#"><?php echo $email;?></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Login.php">Авторизация</a>
-        </ul>
+        <li class="nav-item">
+                <a class="nav-link" href="logout.php">Выйти</a>
+            </li>
     </div>
 </nav>
 <div class="container">
