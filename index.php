@@ -25,7 +25,7 @@
             <a class="dropdown-item" href="provider.php">Provider</a>
             
             <li class="nav-item">
-                <a class="nav-link" href="filter.php">Filter</a>
+                <a class="nav-link" href="filter.php">FILTER</a>
             </li>
 
         </li>

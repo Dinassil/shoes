@@ -30,9 +30,9 @@ $email = $_SESSION['email'];
             <a class="dropdown-item" href="manufacturer.php">Manufacturer</a>
             <a class="dropdown-item" href="provider.php">Provider</a>
             
-            <li class="nav-item">
-                <a class="nav-link" href="filter.php">Filter</a>
-            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="filter.php">FILTER</a>
+            </li> 
 
         </li>
         </ul>

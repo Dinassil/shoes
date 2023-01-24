@@ -8,6 +8,7 @@ if (isset($_POST['submit'])) {
 	$sql = ("INSERT INTO `category`(`name`) VALUES(?)");
 	$query = $pdo->prepare($sql);
 	$query->execute([$name]);
+
 	$success = '<div class="alert alert-success alert-dismissible fade show" role="alert">
   <strong>Данные успешно отправлены!</strong> Вы можете закрыть это сообщение.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">

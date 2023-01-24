@@ -1,6 +1,4 @@
-<!--
-Into this file, we create a layout for login page.
--->
+
 
 <?php
 include_once('link.php');

@@ -1,6 +1,4 @@
-<!--
-Here, we write code for login.
--->
+ 
 <?php
 
 require_once('connection.php');
